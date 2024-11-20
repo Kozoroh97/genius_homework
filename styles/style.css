@@ -184,6 +184,7 @@ body {
 
 .main-section4 {
     color: var(--conteiner-1);
+    background-color: blueviolet;
 }
 
 .main-section4 h2 {
@@ -201,6 +202,26 @@ body {
 
 .main-section4 ul {
     display: flex;
+}
+
+.article {
+    color: var(--conteiner-3);
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.symbol_button {
+    color: var(--conteiner-1);
+    border: 0.77px;
+    border-color: var(--conteiner-1);
+    border-radius: 50%;
+    background-color: var(--conteiner-3);
+}
+
+.symbol_button:hover {
+    color: var(--conteiner-3);
+    border-color: var(--conteiner-2);
+    background-color: var(--conteiner-2);
 }
 
 
