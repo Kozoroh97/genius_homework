@@ -42,10 +42,41 @@ ul {
 body {
     font-family: Roboto;
     font-weight: 400;
+    width: 1440px;
+    height: 3694px;
 }
 
 
 /* header */
+
+header {
+    width: 1440px;
+    height: 106px;
+}
+
+.header-nav {
+    display: flex;
+    width: 1239px;
+    height: 42px;
+    justify-content: space-between;
+    padding: 32px 102px 32px 99px;
+}
+
+.header-nav ul {
+    display: flex;
+}
+
+.header-ul1 {
+    width: 525px;
+    height: 21px;
+    justify-content: space-between;
+}
+
+.header-ul2 {
+    width: 160px;
+    height: 32px;
+    justify-content: space-between;
+}
 
 .link1 {
     color: var(--conteiner-1);
@@ -64,10 +95,19 @@ body {
 
 /*section 1 */
 
+.main-section1 {
+    width: 529px;
+    height: 408px;
+    margin: 0px 700px 0px 214px;
+}
+
 .main-section-p1 {
     color: var(--conteiner-1);
     font-size: 18px;
     line-height: 1.2;
+    width: 199px;
+    height: 21px;
+    margin: 0;
 }
 
 .main-section1>h1 {
@@ -80,6 +120,8 @@ body {
     flex-direction: column-reverse;
     width: 529px;
     height: 228px;
+    margin: 0;
+    padding-top: 16px;
 }
 
 .button {
@@ -91,6 +133,9 @@ body {
     font-weight: 600;
     font-size: 18px;
     line-height: 1.2;
+    width: 219px;
+    height: 53px;
+    margin: 40px 310px 14px 0px;
 }
 
 .button:hover {
@@ -104,10 +149,19 @@ body {
     color: var(--conteiner-4);
     font-size: 12px;
     line-height: 1.5;
+    margin: 0;
 }
 
 
 /* section2 */
+
+.main-section-2 {
+    width: 1240px;
+    height: 695px;
+    margin-top: 127px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
 
 .main-section2-a {
     display: flex;
@@ -184,7 +238,7 @@ body {
 
 .main-section4 {
     color: var(--conteiner-1);
-    background-color: blueviolet;
+    background-color: #747272;
 }
 
 .main-section4 h2 {
@@ -214,8 +268,10 @@ body {
     color: var(--conteiner-1);
     border: 0.77px;
     border-color: var(--conteiner-1);
-    border-radius: 50%;
+    border-radius: 180%;
     background-color: var(--conteiner-3);
+    width: 44px;
+    height: 44px;
 }
 
 .symbol_button:hover {
