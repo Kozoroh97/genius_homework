@@ -35,34 +35,37 @@
     --conteiner-5: #747272;
 }
 
-html {
-    width: 1440px;
-    height: 3694px;
-}
-
 ul {
     list-style-type: none;
 }
 
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
 body {
+    margin: 0;
     font-family: Roboto;
     font-weight: 400;
-    width: 1440px;
-    height: 3694px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1288px;
+    padding: 0 24px;
+    margin: 0 auto;
 }
 
 
 /* header */
 
-header {
-    width: 1440px;
-    height: 106px;
-}
-
 .header-nav {
     display: flex;
-    width: 1239px;
-    height: 42px;
+    /*width: 1239px;
+    height: 42px;*/
     justify-content: space-between;
     padding: 32px 102px 32px 99px;
 }
@@ -115,7 +118,7 @@ header {
     margin: 0;
 }
 
-.main-section1>h1 {
+.main-section1>div>h1 {
     color: var(--conteiner-2);
     font-family: Play;
     font-size: 140px;
@@ -161,11 +164,9 @@ header {
 /* section2 */
 
 .main-section2 {
-    width: 1240px;
-    height: 695px;
-    margin-top: 127px;
-    margin-right: 100px;
-    margin-left: 100px;
+    /*  width: 1240px;
+    height: 695px;*/
+    margin: 127px auto 0px auto;
 }
 
 .main-section2-a {
@@ -174,7 +175,8 @@ header {
 
 .main-section2-div1 {
     margin: 40px 32px 199px 0px;
-    width: 790px;
+    width: 100%;
+    max-width: 709px;
     height: 456px;
 }
 
@@ -257,14 +259,14 @@ header {
 
 .main-section3 {
     margin: 176px 190px 0px 190px;
-    width: 1060px;
-    height: 377px;
+    /* width: 1060px;
+    height: 377px;*/
     align-content: center;
     justify-items: center;
 }
 
 .main-section3 h2 {
-    margin: 0px 0px 48px 0px;
+    margin: 0px auto 48px auto;
     padding: 0px;
 }
 
@@ -333,8 +335,10 @@ header {
     font-size: 64px;
     font-weight: 700;
     line-height: 1.15;
-    width: 510px;
+    width: 100%;
+    max-width: 510px;
     text-align: center;
+    margin: 96px auto 48px auto;
 }
 
 .section4-h2 {
