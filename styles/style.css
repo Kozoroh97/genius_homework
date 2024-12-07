@@ -219,8 +219,6 @@ body {
 
 .main-section2-p2 {
     width: 709px;
-    height: 152px.;
-    margin: 0;
 }
 
 .main-section2-a span {
@@ -258,11 +256,15 @@ body {
 /* section3 */
 
 .main-section3 {
-    margin: 176px 190px 0px 190px;
+    padding: 176px 190px 0px 190px;
+    background-image: url(../images/background-why.png);
+    /*margin: 176px 190px 0px 190px;*/
     /* width: 1060px;
     height: 377px;*/
     align-content: center;
     justify-items: center;
+    /*background: linear-gradient(38.2deg, rgba(43, 127, 255, 0.2) 39.74%, rgba(43, 127, 255, 0) 54.16%, rgba(43, 127, 255, 0) 66.66%);
+*/
 }
 
 .main-section3 h2 {
@@ -279,9 +281,9 @@ body {
 .main-section3 ul>li {
     width: 316px;
     height: 181px;
-    background-color: aqua;
-    border-radius: 10%;
-    filter: drop-shadow(0px 5px 10px grey);
+    background-color: #FFFFFF;
+    border-radius: 32px;
+    box-shadow: 0px, 4px, 4px, 0px, #A8C6F5 0.38%;
 }
 
 .main-section3-li2 {
@@ -353,6 +355,31 @@ body {
     color: var(--conteiner-3);
     font-size: 22px;
     line-height: 26px;
+}
+
+.section4-img1 {
+    background-image: url(../images/Fon.svg);
+}
+
+.section4-img2 {
+    background-image: url(../images/Face_injections.svg);
+    border-radius: 4px 120px 4px 120px;
+}
+
+.section4-li-p {
+    display: flex;
+    margin: 0;
+    bottom: inherit;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 32px;
+    padding-left: 115px;
+    padding-right: 77px;
+    height: 456px;
+    padding-top: 372px;
+    width: 344px;
+    background-image: url(../images/Fon.svg), url(../images/Face_injections.svg);
+    border-radius: 4px 120px 4px 120px;
 }
 
 .symbol_button {
