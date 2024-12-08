@@ -37,6 +37,8 @@
 
 ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 *,
@@ -62,12 +64,24 @@ body {
 
 /* header */
 
-.header-nav {
+.header-container {
+    width: 100%;
+    max-width: 1440px;
+    height: 106px;
     display: flex;
-    /*width: 1239px;
-    height: 42px;*/
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.header-nav {
+    width: 100%;
+    max-width: 1240px;
+    height: 106px;
+    display: flex;
     justify-content: space-between;
-    padding: 32px 102px 32px 99px;
+    align-items: center;
+    gap: 40px;
 }
 
 .header-nav ul {
@@ -75,7 +89,8 @@ body {
 }
 
 .header-ul1 {
-    width: 525px;
+    width: 100%;
+    max-width: 525px;
     height: 21px;
     justify-content: space-between;
 }
