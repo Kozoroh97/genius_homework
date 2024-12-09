@@ -41,6 +41,11 @@ ul {
     padding: 0;
 }
 
+p {
+    margin: 0;
+    padding: 0;
+}
+
 *,
 *::before,
 *::after {
@@ -84,11 +89,8 @@ body {
     gap: 40px;
 }
 
-.header-nav ul {
-    display: flex;
-}
-
 .header-ul1 {
+    display: flex;
     width: 100%;
     max-width: 525px;
     height: 21px;
@@ -96,6 +98,7 @@ body {
 }
 
 .header-ul2 {
+    display: flex;
     width: 160px;
     height: 32px;
     justify-content: space-between;
@@ -133,7 +136,7 @@ body {
     margin: 0;
 }
 
-.main-section1>div>h1 {
+.name-section1 {
     color: var(--conteiner-2);
     font-family: Play;
     font-size: 140px;
@@ -344,7 +347,6 @@ body {
 
 .main-section4 {
     color: var(--conteiner-1);
-    background-color: #747272;
 }
 
 .main-section4 h2 {
@@ -362,18 +364,46 @@ body {
     color: var(--conteiner-2);
 }
 
-.main-section4 ul {
+.container-section4 {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1216px;
 }
 
 .article {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
     color: var(--conteiner-3);
     font-size: 22px;
     line-height: 26px;
+    border-radius: 4px 120px 4px 120px;
+    background-image: linear-gradient(180.05deg, rgba(1, 28, 68, 0) 48.53%, rgba(1, 28, 68, 0.725825) 84.61%, #011C44 101.39%);
 }
 
-.section4-img1 {
-    background-image: url(../images/Fon.svg);
+.section4-menu {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.section4-img {
+    position: relative;
+    z-index: -1;
+    border-radius: 4px 120px 4px 120px;
+}
+
+.section4-img-p {
+    position: absolute;
+    width: 152px;
+    height: 52px;
+    margin-top: 0px;
+    border-bottom-width: 0px;
+    font-size: 22px;
+    margin: auto 77px 32px 115px;
+    text-align: center;
 }
 
 .section4-img2 {
