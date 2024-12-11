@@ -533,16 +533,50 @@ footer {
     font-size: 16px;
 }
 
-.footer nav {
+.container-footer {
     display: flex;
+    justify-content: space-around;
+    gap: 186px;
+    margin: 56px auto;
 }
 
-.contacts {
+.container-footer-nav {
     display: flex;
+    gap: 186px;
+}
+
+.footer-nav-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.footer-contacts-maindiv {
+    display: flex;
+    gap: 186px;
+}
+
+.footer-contacts-div {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.contacts-ul1 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 
 .contacts-ul2 {
     display: flex;
+    gap: 24px;
+}
+
+.contacts-ul3 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 
 .link2 {
