@@ -73,6 +73,15 @@ body {
 
 /* header */
 
+.header {
+    background: #FFFFFF40;
+    backdrop-filter: blur(10px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
 .header-container {
     width: 100%;
     max-width: 1440px;
@@ -126,10 +135,12 @@ body {
 /*section 1 */
 
 .main-section1 {
+    padding: 123px 0px 127px 140px;
+    overflow: hidden;
     background-image: url('../images/fon_section1.jpg');
     background-repeat: no-repeat;
     background-position: right;
-    background-size: auto;
+    background-size: cover;
 }
 
 .container-main-section1 {
