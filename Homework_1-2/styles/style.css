@@ -293,18 +293,21 @@ body {
 }
 
 
+/*FON SECTION 3&4 */
+
+.section3_4-fon {
+    background-image: url(../images/background-why.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 /* section3 */
 
 .main-section3 {
     padding: 176px 190px 0px 190px;
-    background-image: url(../images/background-why.png);
-    /*margin: 176px 190px 0px 190px;*/
-    /* width: 1060px;
-    height: 377px;*/
     align-content: center;
     justify-items: center;
-    /*background: linear-gradient(38.2deg, rgba(43, 127, 255, 0.2) 39.74%, rgba(43, 127, 255, 0) 54.16%, rgba(43, 127, 255, 0) 66.66%);
-*/
 }
 
 .main-section3 h2 {
@@ -447,6 +450,20 @@ body {
     width: 344px;
     background-image: url(../images/Fon.svg), url(../images/Face_injections.svg);
     border-radius: 4px 120px 4px 120px;
+}
+
+.arrow_button {
+    fill: #011C44;
+    background: #FFFFFF;
+    border: 0.77px solid #011C44;
+    backdrop-filter: blur(15.364535331726074px);
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
 }
 
 .symbol_button {
